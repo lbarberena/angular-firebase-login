@@ -88,6 +88,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -117,8 +118,16 @@
               "devServerTarget": "firebase-angular:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "firebase-angular"
+    }
+  },
+  "defaultProject": "firebase-angular",
+  "cli": {
+    "analytics": "a8d5312e-d8c7-4e6f-be4e-81a840e46751"
+  }
 }

@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "fir-workshop-97cfa": {
+      "hosting": {
+        "firebase-angular": [
+          "fir-workshop-97cfa"
+        ]
+      }
+    }
+  }
+}
